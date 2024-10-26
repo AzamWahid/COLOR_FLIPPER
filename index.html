@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOUR FLIPPER</title>
+
+    <style>
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .bgColorText {
+            width: 40%;
+            height: 15vh;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bolder;
+        }
+
+        .colorText {
+            color: #2596be;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="bgColorText">
+            Background Color : &nbsp; <span class="colorText"></span>
+        </div>
+        <br><br>
+        <button onclick="changeColor()">Click Me</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
